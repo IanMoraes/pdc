@@ -3,7 +3,7 @@ import { IMaskInput } from "react-imask";
 import { TextFieldElement } from "react-hook-form-mui";
 
 const MaskedInput = (props) => {
-    const { mask, radix, InputProps, unmask, definitions = {}, ...otherProps } = props;
+    const { mask, radix, InputProps, unmask, definitions , ...otherProps } = props;
 
     const defaultDefinitions = {
         a: /^[a-z]$/,

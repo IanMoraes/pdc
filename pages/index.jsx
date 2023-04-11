@@ -15,7 +15,8 @@ const Index = () => {
     return (
         <>
             <p>Olá, {userData.nome}</p>
-            <Link href="/bolsistas/bolsistas" as="/bolsistas/bolsistas.html">
+            <p>{process.env.NEXT_PUBLIC_DB_HOST}</p>
+            <Link href="/bolsistas/formulario-externo" as="/bolsistas/formulario-externo.html">
                 Formulário
             </Link>
         </>

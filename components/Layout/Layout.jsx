@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 export default function Layout({ children }) {
     return (
         <>
-            <Container>
+            <Container maxWidth="xl">
                 <Header />
                 {children}
             </Container>
