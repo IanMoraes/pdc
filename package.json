@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build & next export",
     "start": "next start",
-    "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "lint": "next lint"
   },
   "dependencies": {
     "@date-io/date-fns": "^2.16.0",
@@ -34,7 +33,6 @@
     "react-hook-form-mui": "^5.14.0",
     "react-icons": "^4.8.0",
     "react-imask": "^6.4.3",
-    "react-input-mask": "^2.0.4",
     "react-scrollmagic": "^2.3.0",
     "sweetalert2": "^11.7.1",
     "sweetalert2-react-content": "^5.0.7",
